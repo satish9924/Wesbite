@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Employee Resigtration Form</h2>
+    <table>
+        <form>
+            <tr>
+                <td>
+                <td align="center">
+                    <input type="radio" placeholder="">MR.
+                    <input type="radio" placeholder="">MRS.
+                    <input type="radio" placeholder="">MS.
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    First Name
+                </th>
+                <td><input type="text" placeholder="First Name"></td>
+            </tr>
+            <tr>
+                <th>Last Name</th>
+                <td><input type="text" placeholder="Last Name"></td>
+            </tr>
+            <tr>
+                <th>Mail Addres1</th>
+                <td><input type="text" placeholder=""></td>
+            </tr>
+            <tr>
+                <th>Mail Addres2</th>
+                <td><input type="text" placeholder=""></td>
+            </tr>
+            <tr>
+                <th>City</th>
+                <td><input type="text" placeholder=""></td>
+            </tr>
+            <tr>
+                <th>State</th>
+                <td>
+                    <select name="" id="">
+                        <optgroup>
+                            <option value="" select>Gujrat</option>
+                            <option value="">Rajasthan</option>
+                            <option value="">Maharashtra</option>
+                            <option value="">Punjab</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Zip</th>
+                <td><input type="text" placeholder=""></td>
+            </tr>
+            <tr>
+                <th>Upload Photo</th>
+                <td><input type="file" value=""></td>
+            </tr>
+            <th>E-mail</th>
+            <td><input pattern="[a-zA-Z-0-9.*^%]+@+[a-zA-z]+.+[a-z]{2,3}$" type="text"></td>
+            <tr>
+                <th>Mobile</th>
+                <td><input type="tel" pattern="[0-9]{10}" maxlength="10" placeholder="+91" required></td>
+            </tr>
+            <tr>
+                <th>Languages Knows</th>
+                <td><input type="checkbox">Gujrati <br><input type="checkbox">Hindi <br><input type="checkbox">English
+                    <br> <input type="checkbox">MArathi <br></td>
+            </tr>
+            <th>Additional Information</th>
+            <td>
+                <textarea rows="5" cols="30" placeholder="Optional"></textarea>
+            </td>
+            <tr>
+                <th>
+                <td><input type="submit"><input type="reset"></td>
+               </th>
+            </tr>
+        </form>
+    </table>
+</body>
+
+</html>
